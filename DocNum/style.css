@@ -1,0 +1,39 @@
+body {
+	width: 1200px;
+	background-image:url("body-bg.jpg");
+	color:#6a6969;	
+}
+
+header img{
+	width: 230px;
+}
+
+header {
+		background-color:#222222;
+		font-family:Verdana;
+
+}
+
+nav a{
+	text-decoration:none;
+	color:blue;
+}
+
+main{
+	background-image:url("main-bg.png");
+	width:900px;
+	padding:20px;
+	margin:auto; 
+}
+
+main img{
+	width:300px;
+}
+
+aside{
+	border:3px dashed;
+}
+
+footer {
+	text-align:center;
+}
