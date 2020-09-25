@@ -20,9 +20,12 @@ class DateMois {
 		if ( 0>jour || jour>31 || mois<0 || mois>12 || annee<1582)
 			System.out.println("Rentrez une date correcte");
 
-		else if (annee%4 == 0 && mois == 2 && jour > 29 )
+		else if (annee%4 != 0 && mois == 2 && jour == 29 )
 			System.out.println("Date incorrecte");
 		
+		else if (annee%4 == 0 && mois == 2 && jour == 29 )
+			System.out.println("Date Correcte");
+
 		else {
 			
 			if (mois == 1 || mois == 3 || mois == 5 || mois == 7 || mois == 8 || mois == 10 || mois == 12)
@@ -39,4 +42,3 @@ class DateMois {
 		}
 	}
 }
-
